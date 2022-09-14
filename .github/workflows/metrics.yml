@@ -15,7 +15,7 @@ jobs:
         with:
           user: dexkit
           filename: profile/metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
           plugin_activity: no
           plugin_followup: yes
